@@ -2,6 +2,19 @@
 
 Basic Rust library and its usage
 
+```
+.
+Cargo.toml -- Holds project dependencies
+src -
+ | - cli.rs -- CLI menu
+ | - main.rs -- Entry point of the CLI app
+
+rusty_libby -
+ | - Cargo.toml -- Holds library dependencies
+ | - src
+      | - _all files specific to `math` and `word`
+```
+
 # How to run and sample output
 
 ```
