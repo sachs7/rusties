@@ -95,3 +95,29 @@ madam is a palindrome
 ➜  rusties git:(main) ✗ target/release/rusties word palindrome list 
 list is not a palindrome
 ```
+
+# Documentation Tests
+
+```
+➜  rusty_libby git:(main) ✗ cargo test                     
+   Compiling rusty_libby v0.1.0 (rusty_libby)
+    Finished test [unoptimized + debuginfo] target(s) in 1.15s
+     Running unittests src/lib.rs (target/debug/deps/rusty_libby-382d9f360a4a4dc8)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests rusty_libby
+
+running 5 tests
+test src/palindrome.rs - palindrome::Palindrome (line 9) ... ok
+test src/prime_or_not.rs - prime_or_not::fmt (line 9) ... ok
+test src/factorial.rs - factorial::fmt (line 9) ... ok
+test src/fibonacci.rs - fibonacci::fmt (line 9) ... ok
+test src/palindrome.rs - palindrome::Palindrome (line 17) ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.98s
+
+➜  rusty_libby git:(main) ✗ 
+```
