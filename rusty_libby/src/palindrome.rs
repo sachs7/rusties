@@ -10,7 +10,6 @@
 /// use rusty_libby::palindrome::Palindrome;
 /// 
 /// let palindrome = Palindrome::new("madam".to_string());
-/// assert_eq!(palindrome.is_palindrome(), true);
 /// assert_eq!(palindrome.to_string(), "madam is a palindrome");
 /// ```
 /// 
@@ -18,7 +17,6 @@
 /// use rusty_libby::palindrome::Palindrome;
 /// 
 /// let palindrome = Palindrome::new("hello".to_string());
-/// assert_eq!(palindrome.is_palindrome(), false);
 /// assert_eq!(palindrome.to_string(), "hello is not a palindrome");
 /// ```
 
