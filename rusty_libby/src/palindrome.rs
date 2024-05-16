@@ -31,7 +31,7 @@ impl Palindrome {
         Self { word }
     }
 
-    pub fn is_palindrome(&self) -> bool {
+    fn is_palindrome(&self) -> bool {
         self.word.chars().eq(self.word.chars().rev())
     }
 }
