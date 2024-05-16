@@ -83,7 +83,7 @@ fn main() {
             }
             WordAction::ReverseString { word } => {
                 let reverse_string = ReverseString::new(word);
-                println!("{}", reverse_string.reverse());
+                println!("{}", reverse_string);
             }
         },
     }
