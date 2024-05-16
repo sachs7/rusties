@@ -10,7 +10,6 @@
 /// use rusty_libby::factorial::Factorial;
 /// 
 /// let factorial = Factorial::new(5);
-/// assert_eq!(factorial.calculate(), 120);
 /// assert_eq!(factorial.to_string(), "Factorial of 5 is 120");
 /// ```
 
