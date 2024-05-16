@@ -42,7 +42,9 @@ pub enum WordAction {
 
 #[derive(Debug, StructOpt)]
 pub enum Command {
+    /// Math operations like Factorial, Fibonacci, and Prime number check.
     Math(MathAction),
+    /// String operations like Palindrome and Reverse string.
     Word(WordAction),
 }
 
