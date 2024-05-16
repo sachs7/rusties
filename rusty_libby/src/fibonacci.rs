@@ -25,7 +25,7 @@ impl Fibonacci {
         Self { num }
     }
 
-    pub fn calculate(&self) -> usize {
+    fn calculate(&self) -> usize {
         match self.num {
             0 => 0,
             1 => self.num,
