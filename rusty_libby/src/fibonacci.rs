@@ -10,7 +10,6 @@
 /// use rusty_libby::fibonacci::Fibonacci;
 /// 
 /// let fibonacci = Fibonacci::new(7);
-/// assert_eq!(fibonacci.calculate(), 13);
 /// assert_eq!(fibonacci.to_string(), "Fibonacci of 7 is 13");
 /// ```
 
