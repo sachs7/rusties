@@ -37,8 +37,8 @@ FLAGS:
 
 SUBCOMMANDS:
     help    Prints this message or the help of the given subcommand(s)
-    math    
-    word
+    math    Math operations like Factorial, Fibonacci, and Prime number check
+    word    String operations like Palindrome and Reverse string
 ```
 
 ## Math functions:
