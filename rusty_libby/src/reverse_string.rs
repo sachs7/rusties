@@ -7,7 +7,13 @@ impl ReverseString {
         ReverseString { word }
     }
 
-    pub fn reverse(&self) -> String {
+    fn reverse(&self) -> String {
         self.word.chars().rev().collect()
+    }
+}
+
+impl std::fmt::Display for ReverseString {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "Reverse of {} is: {}", self.word, self.reverse())
     }
 }
