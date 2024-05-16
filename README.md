@@ -2,6 +2,7 @@
 
 Basic Rust library and its usage
 
+### Folder Structure
 ```
 .
 Cargo.toml -- Holds project dependencies
@@ -16,6 +17,10 @@ rusty_libby -
 ```
 
 # How to run and sample output
+
+Run: `cargo run --release` -- this will create a `target/release` folder.
+
+Execute the following commands:
 
 ```
 ➜  rusties git:(main) ✗ target/release/rusties help
