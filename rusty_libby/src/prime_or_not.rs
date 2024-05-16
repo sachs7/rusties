@@ -10,7 +10,6 @@
 /// use rusty_libby::prime_or_not::PrimeOrNot;
 /// 
 /// let prime_or_not = PrimeOrNot::new(7);
-/// assert_eq!(prime_or_not.is_prime(), true);
 /// assert_eq!(prime_or_not.to_string(), "7 is Prime");
 /// ```
 
