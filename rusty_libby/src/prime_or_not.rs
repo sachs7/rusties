@@ -25,7 +25,7 @@ impl PrimeOrNot {
         Self { num }
     }
 
-    pub fn is_prime(&self) -> bool {
+    fn is_prime(&self) -> bool {
         if self.num <= 1 {
             return false;
         }
