@@ -104,9 +104,9 @@ list is not a palindrome
 # Documentation Tests
 
 ```
-➜  rusty_libby git:(main) ✗ cargo test                     
-   Compiling rusty_libby v0.1.0 (rusty_libby)
-    Finished test [unoptimized + debuginfo] target(s) in 1.15s
+➜  rusty_libby git:(main) ✗ cargo test
+   Compiling rusty_libby v0.1.0 (/rusty_libby)
+    Finished test [unoptimized + debuginfo] target(s) in 1.17s
      Running unittests src/lib.rs (target/debug/deps/rusty_libby-382d9f360a4a4dc8)
 
 running 0 tests
@@ -115,14 +115,15 @@ test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 
    Doc-tests rusty_libby
 
-running 5 tests
-test src/palindrome.rs - palindrome::Palindrome (line 9) ... ok
+running 6 tests
+test src/fibonacci.rs - fibonacci::fmt (line 9) ... ok
+test src/palindrome.rs - palindrome::Palindrome (line 16) ... ok
 test src/prime_or_not.rs - prime_or_not::fmt (line 9) ... ok
 test src/factorial.rs - factorial::fmt (line 9) ... ok
-test src/fibonacci.rs - fibonacci::fmt (line 9) ... ok
-test src/palindrome.rs - palindrome::Palindrome (line 17) ... ok
+test src/reverse_string.rs - reverse_string::ReverseString (line 9) ... ok
+test src/palindrome.rs - palindrome::Palindrome (line 9) ... ok
 
-test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.98s
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.02s
 
 ➜  rusty_libby git:(main) ✗ 
 ```
