@@ -26,7 +26,7 @@ impl Factorial {
         Self { num }
     }
 
-    pub fn calculate(&self) -> usize {
+    fn calculate(&self) -> usize {
         let mut result = 1;
         for i in 1..=self.num {
             result *= i;
